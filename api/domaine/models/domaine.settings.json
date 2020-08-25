@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "domaines",
+  "info": {
+    "name": "domaine"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "intitule": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
