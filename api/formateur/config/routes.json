@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/formateurs",
+      "handler": "formateur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/formateurs/count",
+      "handler": "formateur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/formateurs/:id",
+      "handler": "formateur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/formateurs",
+      "handler": "formateur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/formateurs/:id",
+      "handler": "formateur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/formateurs/:id",
+      "handler": "formateur.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
