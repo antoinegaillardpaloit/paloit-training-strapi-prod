@@ -12,6 +12,10 @@
     "intitule": {
       "type": "string",
       "required": true
+    },
+    "formations": {
+      "via": "domaines",
+      "collection": "formation"
     }
   }
 }

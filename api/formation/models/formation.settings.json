@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formations",
+  "info": {
+    "name": "formation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "intitule": {
+      "type": "string",
+      "required": true
+    },
+    "domaines": {
+      "collection": "domaine",
+      "via": "formations",
+      "dominant": true
+    },
+    "formateurs": {
+      "collection": "formateur",
+      "via": "formations",
+      "dominant": true
+    },
+    "lieus": {
+      "model": "lieu",
+      "via": "formations"
+    },
+    "accroche": {
+      "type": "string",
+      "required": true,
+      "maxLength": 160
+    },
+    "presentation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "formation.section",
+      "required": true
+    },
+    "infos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "formation.infopratique",
+      "required": true
+    },
+    "prochainessessions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "formation.session"
+    },
+    "imagedefond": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

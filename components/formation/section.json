@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_formation_sections",
+  "info": {
+    "name": "Section",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "soustitre": {
+      "type": "string",
+      "required": true
+    },
+    "paragraphe": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

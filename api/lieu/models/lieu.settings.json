@@ -15,6 +15,10 @@
     },
     "adresse": {
       "type": "richtext"
+    },
+    "formations": {
+      "via": "lieus",
+      "collection": "formation"
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_formation_infopratiques",
+  "info": {
+    "name": "infopratique",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "soustitre": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

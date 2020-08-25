@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_formation_sessions",
+  "info": {
+    "name": "session",
+    "icon": "calendar-check"
+  },
+  "options": {},
+  "attributes": {
+    "datedebut": {
+      "type": "datetime",
+      "required": true
+    },
+    "datefin": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}
