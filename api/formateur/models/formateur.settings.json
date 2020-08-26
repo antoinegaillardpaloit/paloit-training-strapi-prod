@@ -14,7 +14,7 @@
       "required": true
     },
     "bio": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "linkedin": {
@@ -36,8 +36,8 @@
       "required": false
     },
     "formations": {
-      "via": "formateurs",
-      "collection": "formation"
+      "collection": "formation",
+      "via": "formateurs"
     }
   }
 }
