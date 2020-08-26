@@ -14,7 +14,7 @@
       "required": true
     },
     "chapeau": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "paragrapheaccueil": {
@@ -24,7 +24,7 @@
       "required": true
     },
     "conclusion": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }

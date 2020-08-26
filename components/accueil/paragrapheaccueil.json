@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "paragraphe": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }
