@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coordonnees",
+      "handler": "coordonnees.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coordonnees",
+      "handler": "coordonnees.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coordonnees",
+      "handler": "coordonnees.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

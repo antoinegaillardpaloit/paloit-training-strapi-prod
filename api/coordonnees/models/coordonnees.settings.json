@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "coordonnees",
+  "info": {
+    "name": "coordonnees"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "adresse": {
+      "type": "richtext"
+    }
+  }
+}

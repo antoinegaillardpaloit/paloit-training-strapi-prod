@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_accueil_paragrapheaccueils",
+  "info": {
+    "name": "paragrapheaccueil",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "paragraphe": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

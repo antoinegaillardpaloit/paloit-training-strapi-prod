@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueils",
+  "info": {
+    "name": "Accueil"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "accroche": {
+      "type": "string",
+      "required": true
+    },
+    "chapeau": {
+      "type": "string",
+      "required": true
+    },
+    "paragrapheaccueil": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accueil.paragrapheaccueil",
+      "required": true
+    },
+    "conclusion": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
