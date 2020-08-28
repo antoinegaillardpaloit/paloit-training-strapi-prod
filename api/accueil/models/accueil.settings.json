@@ -9,23 +9,19 @@
     "timestamps": true
   },
   "attributes": {
-    "accroche": {
-      "type": "string",
-      "required": true
-    },
     "chapeau": {
       "type": "text",
-      "required": true
-    },
-    "paragrapheaccueil": {
-      "type": "component",
-      "repeatable": true,
-      "component": "accueil.paragrapheaccueil",
       "required": true
     },
     "conclusion": {
       "type": "text",
       "required": true
+    },
+    "premierparagraphe": {
+      "type": "text"
+    },
+    "secondparagraphe": {
+      "type": "text"
     }
   }
 }
