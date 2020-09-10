@@ -12,7 +12,7 @@
     "paragrapheintro": {
       "type": "richtext"
     },
-    "Sections": {
+    "sections": {
       "type": "component",
       "repeatable": true,
       "component": "pages.section"
