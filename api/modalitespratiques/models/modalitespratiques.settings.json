@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "modalitespratiques",
+  "info": {
+    "name": "modalitespratiques"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "paragrapheintro": {
+      "type": "richtext"
+    },
+    "Section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.section"
+    }
+  }
+}

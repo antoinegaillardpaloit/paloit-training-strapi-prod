@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/modalitespratiques",
+      "handler": "modalitespratiques.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/modalitespratiques",
+      "handler": "modalitespratiques.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/modalitespratiques",
+      "handler": "modalitespratiques.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

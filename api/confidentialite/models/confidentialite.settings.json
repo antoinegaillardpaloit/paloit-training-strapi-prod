@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "confidentialites",
+  "info": {
+    "name": "Confidentialite"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "paragrapheintro": {
+      "type": "richtext"
+    },
+    "Sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.section"
+    }
+  }
+}

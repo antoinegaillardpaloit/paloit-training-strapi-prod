@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_modalites_sections",
+  "info": {
+    "name": "Section",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "soustitre": {
+      "type": "string"
+    },
+    "paragraphe": {
+      "type": "richtext"
+    }
+  }
+}
