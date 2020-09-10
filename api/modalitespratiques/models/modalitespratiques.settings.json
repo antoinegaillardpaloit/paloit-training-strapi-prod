@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "paragrapheintro": {
+    "paragraphedintro": {
       "type": "richtext"
     },
     "sections": {
