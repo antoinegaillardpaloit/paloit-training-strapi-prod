@@ -19,8 +19,8 @@
       "dominant": true
     },
     "formateurs": {
-      "via": "formations",
       "collection": "formateur",
+      "via": "formations",
       "dominant": true
     },
     "lieus": {
@@ -57,6 +57,9 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

@@ -36,8 +36,8 @@
       "required": false
     },
     "formations": {
-      "collection": "formation",
-      "via": "formateurs"
+      "via": "formateurs",
+      "collection": "formation"
     }
   }
 }
