@@ -14,12 +14,12 @@ module.exports = {
   lifecycles: {
     async beforeCreate(data) {
       if (data.intitule) {
-        data.slug = slugify(data.intitule, {lower: true});
+        data.slug = slugify(data.intitule, {lower: true, strict: true});
       }
     },
     async beforeUpdate(params, data) {
       if (data.intitule) {
-        data.slug = slugify(data.intitule, {lower: true});
+        data.slug = slugify(data.intitule, {lower: true, strict: true});
       }
     },
   },
